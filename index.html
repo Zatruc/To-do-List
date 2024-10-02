@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <header>
+      <h1>Valenzuela To-Do List</h1>
+      <!-- ESPACIO PARA ESCRIBIR LAS TAREAS -->
+      <div class="add-task">
+        <input type="text" id="task-input" placeholder="Nueva tarea" />
+        <button id="add-task-btn">Agregar</button>
+      </div>
+    </header>
+
+    <div class="lateral-container">
+      <!-- BARRA LATERAL -->
+      <aside class="sidebar">
+        <div class="filters">
+          <button class="filter-all">Todas</button>
+          <button class="filter-completed">Completadas</button>
+          <button class="filter-pending">Pendientes</button>
+        </div>
+      </aside>
+
+      <!-- ESPACIO DONDE SE MOSTRARAN TODAS LAS TAREAS -->
+      <main class="task-container-list">
+        <h2>Mis tareas</h2>
+        <ul id="task-list">
+          <!-- AQUI SE AGREGAN LAS TAREAS(LI) DESDE EL JS -->
+        </ul>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+Requerimientos para la aplicación de Lista de Tareas:
+
+1. Interfaz de usuario (UI):
+• Estructura:
+  o La aplicación debe tener un diseño con una barra lateral a la izquierda, donde se ubiquen las principales opciones.
+  o El lado derecho mostrará la lista de tareas que el usuario ha agregado.
+• Opciones en la barra lateral:
+  o Agregar nueva tarea: Un botón que permita al usuario ingresar una tarea nueva.
+  o Filtros: Tres botones para filtrar las tareas:
+    1. Todas las tareas.
+    2. Tareas completadas.
+    3. Tareas pendientes.
+• Visualización de tareas:
+  o Las tareas deben aparecer en una lista vertical en el lado derecho.
+  o Cada tarea debe tener un:
+     Checkbox para marcarla como completada.
+     Botón de eliminar para borrarla de la lista.
+
+2. Funcionalidad:
+• Agregar tareas:
+  o El usuario debe poder escribir una tarea en un campo de texto y, al hacer clic en "Agregar", la tarea debe aparecer en la lista.
+• Marcar como completada:
+  o El usuario debe poder marcar una tarea como completada al hacer clic en el checkbox junto a ella. Las tareas completadas se verán de manera diferente (por ejemplo, con una línea cruzada).
+• Eliminar tareas:
+  o El usuario puede eliminar una tarea haciendo clic en el botón de eliminar junto a la tarea.
+• Filtrar tareas:
+  o El usuario debe poder filtrar entre:
+     Todas las tareas.
+     Solo las completadas.
+     Solo las pendientes.
+• Almacenamiento local:
+  o Las tareas deben mantenerse guardadas en el navegador (usando localStorage) para que no se pierdan al recargar la página.
+
+3. Requisitos visuales:
+• El diseño debe ser limpio y sencillo, con colores suaves.
+• Las tareas deben estar claramente visibles, y los botones deben ser fáciles de encontrar y usar.
+
+4. Requerimientos técnicos:
+• El proyecto será implementado únicamente usando HTML, CSS y JavaScript.
+• No necesitas backend ni bases de datos por ahora.
+• Usa localStorage para guardar las tareas en el navegador.
+
+Extras (opcional, si quieres experimentar más adelante):
+• Editar tareas: Poder hacer clic en una tarea para modificar el texto.
+• Notificaciones: Mostrar una pequeña notificación cuando se agregue o elimine una tarea.
